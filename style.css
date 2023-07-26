@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Righteous&family=Sarala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ysabeau+Office:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background-color: black;
+    color: white;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
+}
+.cabecalho-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.cabecalho-img{
+    height: 60px;
+    border-radius: 50%;
+    padding: 12px;
+}
+.cabecalho-sportfit{
+    font-family: 'Oswald', sans-serif;
+}
+.cabecalho-botao{
+    font-family: 'Oswald', sans-serif;
+    color: white
+}
+.cabecalho-botao:hover{
+    color: yellow;
+    transition: 1s;
+}
+.conteudo{
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+.conteudo-principal-texto{
+    display: flex;
+    flex-direction: column;
+}
+.conteudo-principal-texto-escrito{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+}
+.conteudo-principal-imagem{
+    height: 360px;
+    width: 700px;
+    box-shadow: 4px 5px 4px 0px rgba(80, 80, 80, 0.25);
+}
+.conteudo-secundario{
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+}
+.conteudo-secundario-frase{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conteudo-secundario-frase-titulo{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 42px;
+    padding: 15px;
+    border-left: ;
+}
+.conteudo-secundario-frase-subtitulo{
+    border-top: 0.4px solid black;
+    margin-bottom: 48px;
+    font-family: 'Ysabeau Office', sans-serif;
+    color: black;
+    font-size: 18px;
+}
+.conteudo-secundario-texto{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(102, 102, 102);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 80px;
+}
+.conteudo-secundario-texto-continuidade{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(102, 102, 102);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.conteudo-secundario-img{
+    height: 240px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
